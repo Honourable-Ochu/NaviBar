@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    margin-bottom: 23.28px;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+.search-section{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 2px -2px 14px 14px rgba(205, 200, 200, 0.35);
+    border-radius: 282px;
+}
+.search-section p{
+    margin-right: 20px;
+    margin-left: 20px;
+ 
+}
+.search {
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #FF004E;
+    padding: 8px;
+    border-radius:50%;
+    
+}
+.profile {
+    display:flex;
+    align-items: center;
+}
+.profile p{
+    margin : 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.profile img{
+    margin: 20px;
+}
+
+.welcome {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 212px;
+    
+
+}
+.packages { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 1px solid #b1aeae;
+    padding: 10px;
+    color:#878787
+    
+}
+ 
+.packages section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: center;
+}
+.packages section img{
+    width: 24px;
+    height: 24px;
+}
+
+
+
+.pictorial-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    gap:16px;
+    
+}
+.pictorial-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.pictorial-venue {
+    display: flex; 
+    margin-bottom: 4px; 
+    justify-content: space-between;
+}
+
+.pictorial-distance  {
+    margin-bottom: 4px;
+    color: #7A7A7A;
+}
+
+.pictorial-date {
+    margin-bottom: 10px;
+    color: #7A7A7A;
+}
+
+.pictorial-price {
+
+}
+.pictorial-text {
+    display: flex;
+    flex-direction: column;
+    align-items: left;   
+}
+
+/*
+.mb-1{
+    margin-bottom: 4px;
+}
+.flex{
+    display: flex;
+}
+.mb-2{
+    margin-bottom: 8px;
+}
+
+*/
+.pictorial-image img{
+    display: flex;
+    flex-direction: column;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 25.71%;
+
+    background: url(image.png);
+    border-radius: 11px;
+}
+.background{
+position:relative;
+}
+.love {
+    width: 26.42px;
+    height: 19.18px;
+    top: 19px;
+    right:15px;
+    color: #161515; 
+    position: absolute;
+    
+    
+}
+.pictorial-location {
+    width: 98px;
+    height: 18px;
+    top: 299px;
+    left: 1px;
+    color: #000000;
+
+    
+}
+.venue-rating {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
